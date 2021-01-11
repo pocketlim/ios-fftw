@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
       LICENCE
   }
 
-  s.author       = { 'Happy Health, Inc' => 'support@happy.ai' }
-  s.source       = { :git => "https://github.com/happy-health/ios-fftw/ios-fftw.git", :tag => '3.3.9' }
+  s.author       = { 'Happy Health, Inc' => 'lim@happy.ai' }
+  s.source       = { :git => "https://github.com/pocketlim/ios-fftw.git", :tag => '3.3.9' }
 
   s.platform     = :ios, '5.0'
   s.source_files = 'lib/*.h'
