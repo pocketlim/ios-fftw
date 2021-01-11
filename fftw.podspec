@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "ios-fftw"
+  s.name         = "fftw3"
   s.version      = "3.3.9"
   s.summary      = "iOS Cocoapod for fftw3 v3.3.9"
   s.description  = "iOS Cocoapod for fftw3 v3.3.9, Supports iPhone Simulator (i386), armv7, armv7s, arm64."
