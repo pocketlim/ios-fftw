@@ -15,6 +15,11 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/pocketlim/ios-fftw.git", :tag => '3.3.9' }
 
   s.platform     = :ios, '5.0'
-  s.source_files = 'lib/*.h'
+
+  s.source_files = [
+    'Source/**/*.{h,c,swift,mlmodel,mlmodelc}',
+    'lib/*.h'
+  ]
+
   s.vendored_libraries = 'lib/*.a'
 end
